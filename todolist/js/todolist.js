@@ -23,7 +23,6 @@ function newElement() {
             let gorevIdGetir = document.getElementById(`${gorevTut}`);
             gorevIdGetir.style.display = "none";        
         })){}
-        console.log(liDOM)
         // Üzerine tıklandığında checked yapma kodu
         if(liDOM.addEventListener("click", function(){
             let gorevIdGetir = document.getElementById(`${gorevTut}`);
